@@ -25,15 +25,43 @@ The repository is organized into different areas of AI and machine learning rese
 
 ## How to Use
 
+Each project uses its **own virtual environment** to ensure dependency isolation. Follow the steps below to set up and run an implementation.
+
+### Step-by-Step Setup:
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/AIResearchImplementations.git
     ```
+   
 2. Navigate to the desired project
    ```bash
    cd AIResearchImplementations/CNNs/LearningRepresentations
    ```
-3. Run the code
+   
+3. Create the virtual environment
+   ```bash
+   python3 -m venv venv
+   ```
+   
+4. Activate the virtual environment
+   Linux/Mac
+   ```bash
+   source venv/bin/activate
+   ```
+   Windows
+   ```bash
+   venv\Scripts\activate
+   ```
+5. Install Dependencies: Install required packages for the implementation:
+   ```bash
+   pip install -r requirements.txt
+   ```
+6. Run the code
    ```bash
    python myimplementation.py
+   ```
+7. Deactivate the virtual environment
+   ```bash
+   deactivate
    ```

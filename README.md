@@ -45,23 +45,24 @@ Each project uses its **own virtual environment** to ensure dependency isolation
    ```
    
 4. Activate the virtual environment
-   Linux/Mac
+
+   #### Linux/Mac
    ```bash
    source venv/bin/activate
    ```
-   Windows
+   #### Windows
    ```bash
    venv\Scripts\activate
    ```
-5. Install Dependencies: Install required packages for the implementation:
+6. Install Dependencies: Install required packages for the implementation:
    ```bash
    pip install -r requirements.txt
    ```
-6. Run the code
+7. Run the code
    ```bash
    python myimplementation.py
    ```
-7. Deactivate the virtual environment
+8. Deactivate the virtual environment
    ```bash
    deactivate
    ```
